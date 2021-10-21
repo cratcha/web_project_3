@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100%;
   background-image: url("../../images/__background.jpg");
   background-repeat: no-repeat;
   height: 740px;
@@ -27,4 +26,10 @@
 
 .cover:hover::before {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 748px;
+  }
 }

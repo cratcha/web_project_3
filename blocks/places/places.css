@@ -2,5 +2,11 @@
   max-width: 984px;
   padding: 0 148px 92px 148px;
   margin: auto;
-  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
