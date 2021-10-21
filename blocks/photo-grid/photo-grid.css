@@ -18,3 +18,10 @@
     max-width: 720px;
   }
 }
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    max-width: 288px;
+    padding: 0 16px;
+  }
+}

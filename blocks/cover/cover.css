@@ -33,3 +33,11 @@
     max-width: 748px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    max-height: 254px;
+    align-items: center;
+  }
+}

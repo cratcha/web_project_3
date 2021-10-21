@@ -19,4 +19,24 @@
   .place {
     grid-template-columns: 1fr 1fr;
   }
+  .place:first-child {
+    margin: 88px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "text"
+      "button";
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    margin-top: 48px;
+  }
+  .place:first-child {
+    margin: 64px 0 0 0;
+  }
 }
