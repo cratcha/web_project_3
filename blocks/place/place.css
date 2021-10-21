@@ -1,0 +1,18 @@
+.place {
+  display: grid;
+  grid-template-areas:
+    "title website"
+    "image text"
+    "button text";
+  grid-gap: 48px 40px;
+  justify-content: center;
+  width: 100%;
+  max-width: 984px;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: min-content min-content 1fr;
+  margin-top: 80px;
+}
+
+.place:first-child {
+  margin: 92px 0 0 0;
+}

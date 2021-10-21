@@ -1,0 +1,15 @@
+.place__button {
+  padding: 13px 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #0278fe;
+  border-radius: 4px;
+  border: none;
+
+  grid-area: button;
+  width: fit-content;
+  height: min-content;
+  text-decoration: none;
+}
