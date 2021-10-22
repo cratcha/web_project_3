@@ -8,3 +8,9 @@
 
   color: #aaaaaa;
 }
+
+@media screen and (max-width: 320px) {
+  .place__url-heading {
+    margin: 0 0 12px 0;
+  }
+}
