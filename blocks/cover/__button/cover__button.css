@@ -12,3 +12,7 @@
   height: min-content;
   text-decoration: none;
 }
+
+.cover__button:hover {
+  background: #0063d2;
+}

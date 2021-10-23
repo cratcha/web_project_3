@@ -6,7 +6,7 @@
   text-align: center;
   background-image: url("../../images/__background.jpg");
   background-repeat: no-repeat;
-  height: 740px;
+  min-height: 740px;
   max-width: 1184px;
   margin: auto;
   position: relative;
@@ -30,14 +30,14 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-    max-width: 748px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
     max-width: 320px;
-    max-height: 254px;
+    min-height: 254px;
     align-items: center;
   }
 }
