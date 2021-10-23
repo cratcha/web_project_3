@@ -5,8 +5,8 @@
   /* identical to box height */
   letter-spacing: 0.12em;
   text-transform: uppercase;
-
   color: #aaaaaa;
+  margin: 0 0 8px 0;
 }
 
 @media screen and (max-width: 320px) {
