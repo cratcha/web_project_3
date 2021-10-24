@@ -14,7 +14,7 @@
     max-width: 720px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 515px) {
   .intro__quote-author {
     margin: 10px 16px 0 16px;
     max-width: 288px;

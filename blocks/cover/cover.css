@@ -34,9 +34,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 515px) {
   .cover {
-    max-width: 320px;
     min-height: 254px;
     align-items: center;
   }

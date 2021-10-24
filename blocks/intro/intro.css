@@ -13,8 +13,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 515px) {
   .intro {
     margin: 64px auto 90px auto;
+    align-items: center;
   }
 }
